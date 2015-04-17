@@ -1,0 +1,24 @@
+import java.util.Scanner;
+ 
+public class diskon{
+  public static void main (String[] args)
+  {
+    int jb, Bonus, Total, Harga ;
+     
+    Scanner scan = new Scanner(System.in );
+ 
+    System.out.println("Masukkan Jumlah Barang yang anda beli :");
+    jb = scan.nextInt();
+     
+    
+    Bonus = (jb) / (2);
+    Harga = (jb) * (25000);
+    
+    
+ Total = jb + Bonus;
+     System.out.println("Masukan Jumlah Barang yang dibeli = " + jb );
+     System.out.println("Jumlah Bonus = " + Bonus );
+     System.out.println("Total Item yang dibawa pulang = " + Total );
+     System.out.println("Total harga yang harus di bayar = " + Harga );
+  }
+}
