@@ -1,0 +1,28 @@
+import java.io.*;
+class coba{
+  public static void main (String [] args){
+    BufferedReader br = new BufferedReader (new InputStreamReader(System.in));
+    try {
+      int a,b;
+      System.out.println("masukan a");
+      
+      a = Integer.parseInt(br.readLine());
+      System.out.println("masukan b");
+      
+      b = Integer.parseInt(br.readLine());
+      
+      do 
+      {
+      System.out.println(a);
+      a++;
+      
+      
+      
+      }
+      while (a<=b);
+    }
+    catch (Exception e){
+      System.out.println("");
+  }
+}
+}
